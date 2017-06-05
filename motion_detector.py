@@ -12,7 +12,7 @@ import picamera
 # ForceCapture (whether to force an image to be captured every forceCaptureTime seconds)
 class CabinCamera():
     def __init__(self):
-        self.threshold = 10
+        self.threshold = 20
         self.sensitivity = 20
         self.forceCapture = True
         self.forceCaptureTime = 60 * 60 # Once an hour
@@ -44,7 +44,7 @@ class CabinCamera():
         time = datetime.now()
         filename = "capture-%04d%02d%02d-%02d%02d%02d.jpg" % (time.year, time.month, time.day, time.hour, time.minute, time.second)
         camera.resolution = (1296, 972)
-        camera.capture(filename)
+        camera.capture('/home/pi/development/python/cabin_camera/photos/' + filename)
         print("Captured %s" % filename)
 
     # Keep free space above given level
@@ -77,8 +77,8 @@ class CabinCamera():
             image2, buffer2 = self.captureTestImage(self.camera)
             # Count changed pixels
             changedPixels = 0
-            for x in xrange(0, 100):
-                for y in xrange(0, 75):
+            for x in range(0, 100):
+                for y in range(0, 75):
                     # Just check green channel as it's the highest quality channel
                     pixdiff = abs(buffer1[x,y][1] - buffer2[x,y][1])
                     if pixdiff > self.threshold:
