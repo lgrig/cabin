@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+@reboot /home/pi/development/virtualenvs/python_3/bin/python /home/pi/development/python/cabin_camera/motion_detector.py >> /home/pi/.cronlog 2>&1
+0 0 * * * /home/pi/development/virtualenvs/python_3/bin/python /home/pi/development/python/cabin_camera/delete_old_dropbox_files.py >> /home/pi/.cronlog 2>&1
+15 * * * * /home/pi/development/virtualenvs/python_3/bin/python /home/pi/development/python/cabin_camera/temp_humidity_sensor.py >> /home/pi/.cronlog 2>&1
