@@ -1,0 +1,19 @@
+{
+    "dropbox": {
+        "key": "cvdm2dy9bj5rrtg",
+        "secret": "uputyrzboelbc9c",
+        "token": "gyTgCfQKujYAAAAAAAASc47k_z_oFXeW-zll0hMGd6SK_LjaxwY1gYrmcrHpiwD8"
+    },
+    "google": {
+      "type": "service_account",
+      "project_id": "python-170404",
+      "private_key_id": "a5b9ff28fb185ba941b8d817b7089f5ce771c449",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCu9zhDGD5GU9qb\nR08Mrs05wGym8zRRfpjyzN0hZoxPp4oOO9qfzmRRo7fsWG9BPtq0z1AOvXB8zBPA\ndzplH0M5BnsU+8MkkkQSQd6jkd77iW6xYALSpAZnJnFzIt0Ngf8/Y1HUTiUlt/Sw\na12S16+QkhYiBvD/RMK67WGrikgNfyeIZa+xKvT4fICMkx/+XoIhPO5ekOL+JPsf\n2GOChdRqy6T9vf1wSHaeU+ECht9ayrDBe8I48SGkDOsjyrYk70e3xyCtim5u/e4p\nptXbh7i9PkzylqghFdAfImAPZdPgeP2ry7YCuJ+avOZPk3sXgreMEckYSvcgioeD\nf+TYiwQJAgMBAAECggEACIg3+0ae/882Q3j3XQEXsyuj6MLGn/w+UWXF2Ut+x2Ie\nSHoo+77E89m53fnEiCAcanGLIALjLcTGaE3wIC8FeE4Neb0au6lxzhmd9ahHAUln\nB1mNHbA/uy873E9ci/x1QeYyHvomE9gsA5/itubTcgd7spJX1XzpCZRKnWK/h3/h\nkaSC9AWY3IJCBY54WhjDDZKO1HcPdBcE12qZKyMV/nXbm5jkQPpKqifboLPC7p+z\nyFJTakbqMPBWYME1Cnv/zvMmyMNU3lnPksa85llrQhn9Hq6RUEJ9sA/jkh/8geDJ\nn0YiT3AYsWGstl7nvG4G7CDyChIyy8FTxr5b934xsQKBgQDiXbrZfH0d7UB+PCDA\n8JQ7dCh4/7kBgQOVGeg3pue/5sq85NdbzQVGJufqRCLJ6yueBioxsXs/GE0muFkb\nBnddwJiO2SH8cDwEjhFcnZ2O30k1vgeFW13TiwHlmtbzU9MkHxw+v9SVM4AnK2Fc\nbRIxzqTfgtWsdUlXcRtURdigGQKBgQDF3uSp4s87frGWkfjNSmYvYRpk2OtfWVi3\nH3dEx/tZkink3d/299udSn30UNauQx+OaMN2YyCT2J2q/+Nost3SZjVPQsA/ebYs\naCmmiIPu46zMvFRCoyE3a5QWNHiOy3w544lwqsMbk8FZnexcf6nRb2AaPDbP0HZ2\nxG517jZBcQKBgQCuwnYSmg1uIVB9JKaUzidijxb/8009YAEIB2xEKtMYUHGMy4+I\nDAxaUIcTUW8aPDj8Uv4YR1FDMNu/XOtN9fwJoTsmbXPTlEKBsbytp/GP78pxdzgP\nOK6DNvpL7PKuALUtWedQeoEAfzYdB1yvInW9hi+7byLPde0dWPEkapgHYQKBgG+l\nDjxU/zzAhY9BmbKrkfCVx4CzbEsGbKoWlQM4Gzg04nKCRkZhH4cmat8ZZag5s2p0\n7iS0VcNV69B6RWPj2IlIpjesoDCwifuQYj/WsyptSCjU8m4PAUT17D6DKKrZYaSA\nICJ0F1ZODkB0fNLMLZNAVmc3Jm4nX1AwEWt1FyPhAoGANL1QysVkAmi0BwETdHKY\n1x7QLRHumHhkF6Jrv/KeBDfXY53KlfxzHXDWr8A0SRh1TIbKQp1K7sRuHsM1QJbD\nEOJ0KAhkJ6FBmwDCM1Ae993QubWjRU9Q27J/05PW0BrynVP1TVnxxHCNRGFzeVIl\nmZPdRBClMTwUjyzdHtbCEDk=\n-----END PRIVATE KEY-----\n",
+      "client_email": "cabin-308@python-170404.iam.gserviceaccount.com",
+      "client_id": "109087699217349884435",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cabin-308%40python-170404.iam.gserviceaccount.com"
+  }
+}
